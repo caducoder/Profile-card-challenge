@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+#top{
+    position: fixed;
+    top: -480px;
+    left: -100px;
+    z-index: 1;
+}
+
+#bottom{
+    position: fixed;
+    top: 500px;
+    right: 20px;
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    width: 360px;
+    margin: auto;
+    margin-top: 220px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    z-index: 4;
+}
+
+#photo{
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 133px;
+}
+
+#patt{
+    width: 400px;
+}
+
+.person{
+    margin-top: 70px;
+}
+
+#name{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    line-height: 10px;
+}
+
+#age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+#city{
+    color: hsl(0, 0%, 59%);
+}
+
+.stats{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(228, 226, 226);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.small{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: x-small;
+    letter-spacing: .1rem;
+}
+
+.sts{
+    display: inline-block;
+    flex: 1;
+    line-height: 2px;
+    color: hsl(229, 23%, 23%);
+}
