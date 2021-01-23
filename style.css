@@ -5,8 +5,6 @@ body{
     background-position: top -500px left -220px, bottom -600px right -300px;
 }
 
-
-
 .container{
     position: relative;
     width: 360px;
@@ -77,4 +75,14 @@ body{
     flex: 1;
     line-height: 2px;
     color: hsl(229, 23%, 23%);
+}
+
+/* responsive */
+@media screen and (max-width:375px){
+    body{
+        background-position: top -570px left -750px, bottom -650px right -740px;
+    }
+    .container{
+        width: 340px;
+    }
 }
